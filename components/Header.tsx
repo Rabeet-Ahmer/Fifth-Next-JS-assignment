@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="bg-[#A29875] ">
       <div className=" mx-8 ">
-        <div className=" flex justify-center items-center mx-auto h-48 sm:h-auto">
+        <div className=" flex justify-center items-center mx-auto h-48 md:h-auto">
 
           {/* Logo */}
 
@@ -25,7 +25,7 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search for Gold Jewellery, Diamond Jewellery and more..."
-              className="bg-white  w-[769.89px] h-[70px] sm:h-[56.24px] max-w-screen-sm sm:max-w-[1557.03] rounded-[13.83px] font-nunito text-[21px] sm:text-[18.68px] text-[#6C757D] py-[16.6px] pl-[26.74px] "
+              className="bg-white  w-[769.89px] h-[70px] md:h-[56.24px] max-w-screen-sm md:max-w-[1557.03px] rounded-[13.83px] font-nunito text-[21px] md:text-[18.68px] text-[#6C757D] py-[16.6px] pl-[26.74px] "
             />
             <button>
               <Image
@@ -33,7 +33,7 @@ const Header = () => {
                 alt="search icon"
                 width={21.5}
                 height={21.5}
-                className="absolute top-6 right-4 sm:top-4"
+                className="absolute top-6 right-4 md:top-4"
               />
             </button>
           </div>
